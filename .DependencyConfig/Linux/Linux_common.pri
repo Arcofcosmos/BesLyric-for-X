@@ -14,3 +14,8 @@ PKGCONFIG *= \
     libswresample \
     libswscale \
     sdl2
+
+
+# linuxdeployqt is needed.
+
+include(Linux_linuxdeployqt.pri)

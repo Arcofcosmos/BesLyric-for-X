@@ -24,7 +24,7 @@ else:equals(QT_MAJOR_VERSION, 5) {
 }
 
 
-TARGET = Beslyric-for-X
+TARGET = BesLyric-for-X
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -99,7 +99,7 @@ ICON = Beslyric.icns
 #  No test on other Linux distros!
 # from: https://stackoverflow.com/questions/45329372/ubuntu-recognizes-executable-as-shared-library-and-wont-run-it-by-clicking
 !macx:unix{
-    QMAKE_LFLAGS *= -no-pie
+#    QMAKE_LFLAGS *= -no-pie
 }
 
 #--------------------------------

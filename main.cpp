@@ -29,6 +29,7 @@ void test()
 int main(int argc, char *argv[])
 {
     MyApplication app(argc, argv);
+    app.setWindowIcon(QIcon(":/BesLyric.ico"));
 
     StackFrame MainFrameWidget(&app);
     app.SetMakingLyricNotifyWidget(MainFrameWidget.mainWidget);
